@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box; 
+}
+
+:root {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sidebar img {
+    width: 20px;
+}
