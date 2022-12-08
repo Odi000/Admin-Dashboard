@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
 *,
 *::before,
 *::after {
+    font-family: Roboto, sans-serif;
     box-sizing: border-box; 
+    margin: 0;
 }
 
 :root {
@@ -13,12 +17,12 @@
 body {
     margin: 0;
     display: grid;
-    grid-template-columns: 200px 600px 200px;
+    grid-template-columns: 1fr 600px 200px;
     background-color: var(--grey);
 }
 
 img {
-    width: 25px;
+    width: 26px;
 }
 
 header {
@@ -29,6 +33,49 @@ header {
 .sidebar {
     background-color: var(--blue);
     grid-row: 1 / 3;
+    padding: 2rem;
+    padding-right: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+    color: white;
+}
+
+.sidebar img {
+    filter: brightness(0) invert(1);
+}
+
+.sidebar div {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.sidebar div img {
+    width: 64px;
+}
+
+h1 {
+    font-size: 3.6rem;
+
+}
+
+ul {
+    cursor: pointer;
+    list-style-type: none;
+    padding-left: 1.6rem;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+li+li {
+    margin-top: 2rem;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
 }
 
 .projects {
