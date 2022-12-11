@@ -248,8 +248,8 @@ li:active {
 
 .card img {
     transition: 
-    scale .2s,
-    filter .2s;
+    scale .1s,
+    filter .1s;
 }
 
 .card img:hover {
