@@ -276,16 +276,20 @@ li:active {
 .card img:hover {
     scale: 1.1;
     filter:
-    drop-shadow(0 0 8px #f0b42999)
-    drop-shadow(0 0 12px #f0b42999);
+    drop-shadow(2px 2px 0 #f0b42999)
+    drop-shadow(-2px -2px 0 #f0b42999)
+    drop-shadow(-2px 2px 0 #f0b42999)
+    drop-shadow(2px -2px 0 #f0b42999);
 
 }
 
 .card img:active {
     scale: 1;
     filter:
-    drop-shadow(0 0 4px #f0b42999)
-    drop-shadow(0 0 8px #f0b42999);
+    drop-shadow(2px 2px 2px #f0b42999)
+    drop-shadow(-2px -2px 2px #f0b42999)
+    drop-shadow(-2px 2px 2px #f0b42999)
+    drop-shadow(2px -2px 2px #f0b42999);
 }
 
 p {
